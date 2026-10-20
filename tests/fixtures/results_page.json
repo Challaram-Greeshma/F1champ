@@ -1,0 +1,65 @@
+{
+  "MRData": {
+    "xmlns": "",
+    "series": "f1",
+    "url": "https://api.jolpi.ca/ergast/f1/1996/1/results.json",
+    "limit": "100",
+    "offset": "0",
+    "total": "1",
+    "RaceTable": {
+      "season": "1996",
+      "round": "1",
+      "Races": [
+        {
+          "season": "1996",
+          "round": "1",
+          "raceName": "Australian Grand Prix",
+          "Circuit": {
+            "circuitId": "albert_park",
+            "circuitName": "Albert Park Grand Prix Circuit",
+            "Location": {"locality": "Melbourne", "country": "Australia"}
+          },
+          "date": "1996-03-10",
+          "time": "01:00:00Z",
+          "Results": [
+            {
+              "number": "5",
+              "position": "1",
+              "positionText": "1",
+              "points": "10",
+              "Driver": {"driverId": "damon_hill", "givenName": "Damon", "familyName": "Hill"},
+              "Constructor": {"constructorId": "williams", "name": "Williams"},
+              "grid": "2",
+              "laps": "58",
+              "status": "Finished",
+              "Time": {"millis": "5743960", "time": "1:35:43.960"}
+            },
+            {
+              "number": "6",
+              "position": "2",
+              "positionText": "2",
+              "points": "6",
+              "Driver": {"driverId": "jacques_villeneuve", "givenName": "Jacques", "familyName": "Villeneuve"},
+              "Constructor": {"constructorId": "williams", "name": "Williams"},
+              "grid": "1",
+              "laps": "58",
+              "status": "Finished",
+              "Time": {"millis": "5768354", "time": "+24.394"}
+            },
+            {
+              "number": "1",
+              "position": "18",
+              "positionText": "R",
+              "points": "0",
+              "Driver": {"driverId": "michael_schumacher", "givenName": "Michael", "familyName": "Schumacher"},
+              "Constructor": {"constructorId": "ferrari", "name": "Ferrari"},
+              "grid": "0",
+              "laps": "32",
+              "status": "Engine"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
